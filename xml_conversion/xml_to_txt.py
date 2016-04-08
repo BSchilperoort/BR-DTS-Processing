@@ -9,6 +9,7 @@ import os
 #   between files in the same folder. This will lead to errors              #
 #############################################################################
 
+##!>Set working directory to correct folder (BR-DTS-Processing)
 working_directory = r'D:\Github\BR-DTS-Processing'
 
 os.chdir(working_directory)
