@@ -9,3 +9,10 @@ The Ultima xml files can be converted to an ascii file containing all the temper
 Functions for importing the processed data can be found in the data_processing folder (dataImports). It also contains some custom functions which are used (customFunctions).
 
 An example of how to read out, process and plot the Ultima data is located under data_processing/dts_plot_example.py
+
+.
+
+![alt text][img_cable1] ![alt text][img_cable2]
+
+[img_cable1]: https://github.com/BSchilperoort/BR-DTS-Processing/blob/master/img/cable_horizon.jpg "1"
+[img_cable2]: https://github.com/BSchilperoort/BR-DTS-Processing/blob/master/img/cable_down.jpg "2"
