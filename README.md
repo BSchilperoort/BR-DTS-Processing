@@ -12,8 +12,6 @@ An example of how to read out, process and plot the Ultima data is located under
 
 ***
 
-<div style="text-align:center"><img src ="https://github.com/BSchilperoort/BR-DTS-Processing/blob/master/img/cable_horizon.jpg" /></div>
-
 ![alt text][img_cable1] ![alt text][img_cable2]
 
 [img_cable1]: https://github.com/BSchilperoort/BR-DTS-Processing/blob/master/img/cable_horizon.jpg "1"
