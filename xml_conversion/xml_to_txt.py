@@ -54,9 +54,10 @@ for ii in range(0,fileAmount):
     # pt100[i] = [float(root[0][5][2].text),float(root[0][5][3].text)] 
     
     #Import all data from the xml
-    data_line = []
-    for measurement in root[0][11]:
-        data_line.append([x for x in measurement.text.split(',')])
+    #Define full list first, then add values (for speed)
+    data_line = [None]*data_length
+    for ii in range(0,data_length):
+        data_line[ii] = root[0][11][ii].text.split(',')
         
     #Extract temperature values from the dataline:
     Temp = [row[3] for row in data_line]
