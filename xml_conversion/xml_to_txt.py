@@ -2,11 +2,16 @@
 import xml.etree.cElementTree as ET
 from glob import glob
 from time import time
+import os
 
 #############################################################################
 #   NOTE: When importing xml files, make sure the distances do not change   #
 #   between files in the same folder. This will lead to errors              #
 #############################################################################
+
+working_directory = r'D:\Github\BR-DTS-Processing'
+
+os.chdir(working_directory)
 
 ##Write data to txt file
 #Get start time
