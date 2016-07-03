@@ -8,15 +8,19 @@ import matplotlib.dates as mdates
 import matplotlib.image as mpimg
 import numpy as np
 import os
+import sys
 
 ##!>Set working directory to correct folder (BR-DTS-Processing)
 working_directory = r'D:\Github\BR-DTS-Processing'
+
 os.chdir(working_directory)
+sys.path.append(working_directory)
 
 ##Custom imports:
 #Make sure the working directory is correctly set
-from data_processing import dataImports
-from data_processing import customFunctions
+if 1:
+    from data_processing import dataImports
+    from data_processing import customFunctions
 
 ##DTS import
 file_name = r'xml_conversion\output\dts_data.txt'
